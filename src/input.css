@@ -35,4 +35,9 @@ body {
    @apply flex flex-col items-center my-8 pt-4 text-center;
 }
 
+.contact_input {
+   @apply py-3 rounded bg-input-bg font-medium text-white pl-10 transition-all duration-500;
+   @apply placeholder:uppercase focus:bg-white focus:text-gray-700 focus:outline-none;
+}
+
 @tailwind utilities;
