@@ -4,6 +4,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- AOS for Animate on Scroll-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <!-- FONTS -->
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +17,8 @@
       <script src="https://kit.fontawesome.com/a2c234ef4d.js" crossorigin="anonymous"></script>
 
       <!-- CSS -->
-      <link rel="stylesheet" href="output.css" />
+      <link rel="stylesheet" href="output.min.css" />
+      <!-- <link rel="stylesheet" href="output.css" /> -->
       <title>Corporate Landing Page</title>
    </head>
    <body>
@@ -38,7 +41,7 @@
       <!-- Profile Section -->
       <section class="bg-white w-screen">
          <div class="flex flex-col md:flex-row md:space-x-4">
-            <div class="container mt-12 lg:my-20- lg:mx-20">
+            <div data-aos="fade-right" class="container mt-12 lg:my-20 2xl:my-auto lg:mx-20">
                <div class="title-tag my-2">
                   <span>New Design</span>
                </div>
@@ -58,7 +61,7 @@
                   </p>
                </div>
             </div>
-            <div class="bg-photo-bg bg-cover bg-no-repeat w-full">
+            <div data-aos="fade-left" class="bg-photo-bg bg-cover bg-no-repeat w-full">
                <div class="flex justify-center py-8">
                   <img src="./img/profile_bannder.jpg" alt="" class="w-96 md:w-4/5 md:mt-10 lg:w-2/4 xl:pb-8" />
                </div>
@@ -69,7 +72,7 @@
       <!-- Features Section -->
       <section class="w-screen bg-features-bg bg-no-repeat bg-cover bg-center">
          <div class="container pt-8">
-            <div class="text-center mt-12">
+            <div data-aos="fade-up" class="text-center mt-12">
                <div class="title-tag my-2">
                   <span>New Features</span>
                </div>
@@ -81,7 +84,7 @@
                <div
                   class="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 md:gap-x-20 lg:gap-x-14 xl:gap-x-30 2xl:gap-x-40"
                >
-                  <div class="card">
+                  <div data-aos="fade-right" class="card">
                      <div class="card-body">
                         <div class="">
                            <img src="./img/galleryLogo.png" alt="Gallery" />
@@ -94,7 +97,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card">
+                  <div data-aos="fade-up" class="card">
                      <div class="card-body">
                         <div class="">
                            <img src="./img/planeLogo.png" alt="Gallery" />
@@ -105,7 +108,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card">
+                  <div data-aos="fade-left" class="card">
                      <div class="card-body">
                         <div class="">
                            <img src="./img/bulbLogo.png" alt="Gallery" />
@@ -128,7 +131,7 @@
       <section class="bg-resposive-p-bg w-screen h-full bg-cover bg-center bg-no-repeat pb-8">
          <div class="container py-4 lg:py-12">
             <div class="flex flex-col lg:flex-row-reverse lg:space-x-4">
-               <div class="px-8 basis-1/2 mt-12 md:mx-10 lg:mx-14">
+               <div data-aos="fade-left" class="px-8 basis-1/2 mt-12 md:mx-10 lg:mx-14">
                   <div class="title-tag my-2">
                      <span>New Design</span>
                   </div>
@@ -144,7 +147,7 @@
                   </div>
                </div>
 
-               <div class="flex items-center py-8 basis-1/2">
+               <div data-aos="fade-right" class="flex items-center py-8 basis-1/2">
                   <img src="./img/laptop.png" alt="" class="w-full h-full lg:w-[600px] lg:h-[335px]" />
                </div>
             </div>
@@ -197,7 +200,7 @@
                </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-y-14 lg:grid-cols-4 xl:gap-x-8 lg:mx-24">
+            <div data-aos="fade-up" class="grid grid-cols-2 gap-y-14 lg:grid-cols-4 xl:gap-x-8 lg:mx-24">
                <div class="mx-auto my-auto">
                   <img src="./img/c_logo1.png" alt="CompanyLogo" class="cursor-pointer" />
                </div>
@@ -234,7 +237,7 @@
                      </p>
                   </div>
                </div>
-               <div class="mx-auto">
+               <div data-aos="zoom-in" class="mx-auto">
                   <img src="./img/macNotepad.png" alt="NotePad" class="" />
                </div>
             </div>
@@ -253,7 +256,7 @@
                   <h2>Over 1000 designers are using <span> ...</span></h2>
                </div>
             </div>
-            <div class="my-6 pt-10 2xl:mx-20">
+            <div data-aos="fade-up" class="my-6 pt-10 2xl:mx-20">
                <form action="#" method="post">
                   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
                      <input type="text" placeholder="Full Name" class="contact_input" />
@@ -274,7 +277,7 @@
       <footer class="bg-footer-p-bg bg-cover bg-no-repeat bg-center w-screen">
          <div class="container py-12">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
-               <div class="flex flex-col items-center py-6">
+               <div data-aos="fade-right" class="flex flex-col items-center py-6">
                   <div class="my-2">
                      <img src="./img/footerLogo.png" alt="CompanyLogo" class="cursor-pointer" />
                   </div>
@@ -284,7 +287,7 @@
                      <p class="pb-4">Address: Dhaka-1207, Bangladesh</p>
                   </div>
                </div>
-               <div class="flex flex-col items-center py-6">
+               <div data-aos="fade-right" class="flex flex-col items-center py-6">
                   <div class="my-2">
                      <h3 class="text-2xl font-medium">Support</h3>
                   </div>
@@ -294,7 +297,7 @@
                      <p class="pt-2 cursor-pointer">Contact US</p>
                   </div>
                </div>
-               <div class="flex flex-col items-center py-6">
+               <div data-aos="fade-left" class="flex flex-col items-center py-6">
                   <div class="my-2">
                      <h3 class="text-2xl font-medium">About US</h3>
                   </div>
@@ -304,7 +307,7 @@
                      <p class="pt-2 cursor-pointer">Privacy & Policy</p>
                   </div>
                </div>
-               <div class="flex flex-col items-center py-6">
+               <div data-aos="fade-left" class="flex flex-col items-center py-6">
                   <div class="my-2">
                      <h3 class="text-2xl font-medium">Get Newsletter</h3>
                   </div>
@@ -331,6 +334,15 @@
          </div>
       </footer>
       <!-- END of Footer Section -->
+
       <!---JS -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init({
+            offset: 250,
+            duration: 1000,
+         });
+      </script>
    </body>
 </html>
