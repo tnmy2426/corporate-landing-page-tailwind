@@ -9,6 +9,7 @@ module.exports = {
             "header-image": "url('./img/background01.png')",
             "photo-bg": "url('./img/background02.png')",
             "features-bg": "url('./img/background03.png')",
+            "resposive-p-bg": "url('./img/background05.png')",
          },
 
          colors: {
