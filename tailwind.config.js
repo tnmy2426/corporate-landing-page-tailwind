@@ -10,11 +10,13 @@ module.exports = {
             "photo-bg": "url('./img/background02.png')",
             "features-bg": "url('./img/background03.png')",
             "resposive-p-bg": "url('./img/background05.png')",
+            "company-p-bg": "url('./img/background04.png')",
          },
 
          colors: {
             "main-clr": "#ff6d6d",
-            "gray-text": "#99999a",
+            "gray-p-bg": "#f6f5f3",
+            "blue-p-bg": "#323969",
          },
       },
 
